@@ -1,0 +1,13 @@
+Reading Profile files in ./data/raw/10.10.27.33/profile.0.0.0.*
+
+./data/raw/10.10.27.33/profile.0.0.0
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.469       53,220           1           1   53220089 .TAU application
+100.0       53,124       53,219           1           4   53219620 taupreload_main
+  0.2           94           94           1           0      94092 MPI_Init() 
+  0.0        0.945        0.945           1           0        945 MPI_Finalize() 
+  0.0        0.004        0.004           1           0          4 MPI_Comm_size() 
+  0.0        0.001        0.001           1           0          1 MPI_Comm_rank() 

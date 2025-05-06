@@ -1,0 +1,8 @@
+{
+    "xx.xx.xx.xx": {
+        "address": "https://xx.xx.xx.xx",
+        "username": "Admin Name",
+        "password": "Admin Passport",
+        "verify_ca": false
+    }
+}

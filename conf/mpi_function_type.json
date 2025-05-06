@@ -1,0 +1,41 @@
+{
+    "MPI_Send()": "transfer",
+    "MPI_Isend()": "transfer",
+    "MPI_Bsend()": "transfer",
+    "MPI_Ibsend()": "transfer",
+    "MPI_Ssend()": "transfer",
+    "MPI_Issend()": "transfer",
+    "MPI_Rsend()": "transfer",
+    "MPI_Irsend()": "transfer",
+    "MPI_Sendrecv()": "transfer",
+    "MPI_Isendrecv()": "transfer",
+    "MPI_Recv()": "transfer",
+    "MPI_Irecv()": "transfer",
+
+    "MPI_Allgather()": "transfer",
+    "MPI_Allgatherv()": "transfer",
+    "MPI_Allreduce()": "transfer",
+    "MPI_Allreducev()": "transfer",
+    "MPI_Alltoall()": "transfer",
+    "MPI_Alltoallv()": "transfer",
+    "MPI_Alltoallw()": "transfer",
+    "MPI_Bcast()": "transfer",
+    
+    "MPI_Gather()": "transfer",
+    "MPI_Gatherv()": "transfer",
+    "MPI_Reduce()": "transfer",
+    "MPI_Reduce_local()": "transfer",
+    "MPI_Reduce_scatter()": "transfer",
+    "MPI_Scatter()": "transfer",
+    "MPI_Scatterv()": "transfer",
+    "MPI_Wait()": "transfer",
+    "MPI_Waitany()": "transfer",
+    "MPI_Waitall()": "transfer",
+
+
+    "MPI_Barrier()": "serilize",
+    "MPI_Collective_Sync": "serilize",
+
+    "MPI_Init()": "other",
+    "MPI_Finalize()": "other"
+}
