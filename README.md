@@ -4,7 +4,7 @@
 
 High Performance Computing (HPC) has seen significant advancements and widespread application in recent years. To conduct a comprehensive analysis of HPC systems, modern supercomputing environment requires the deployment of multiple monitoring tools to collect diverse HPC datasets. However, existing monitoring systems lack adequate mechanisms to facilitate the coordination among these tools. When data from various tools are aggregated into a single dataset, issues such as time misalignment, increased anomalous data, and low data representativeness arise, leading to datasets that fail to accurately reflect the actual system status. To mitigate the impact of these data correctness issues in the analysis of HPC systems, this paper evaluates the factors affecting data correctness and proposes an organizational framework for integrating multiple monitoring tools. The framework incorporates the time synchronization, anomaly detection, and change point detection to reduce the adverse effects on data correctness during the HPC dataset generation. Extensive experiments demonstrate that the proposed framework outperforms commonly used methods in terms of missing data rates, anomaly percentages, and stability, offering more reliable data support for HPC system analyses.
 
-![hpc_system](https://github.com/user-attachments/assets/1caf9a06-793a-43ab-96ef-d06f5fe53225)
+![hpc_system](image/README/hpc_system.png)
 
 ## Code Availability
 
@@ -15,7 +15,7 @@ It should be noted that due to the differences in the hardware and software envi
 - `center_main.py` — to be deployed on the central management node
 - `node_main.py` — to be deployed on compute nodes
 
-![1746185187410](image/README/1746185187410.png)
+![modules](image/README/modules.png)
 
 ## Qicuk Start
 
